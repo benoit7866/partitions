@@ -108,7 +108,7 @@ bassPart = \new Staff \with {
   midiInstrument = "acoustic bass"
   instrumentName = "Basse"
 } { \clef "bass_8" \bass }
-
+\book {
 \score {
   \new GrandStaff<<
    \flutePart
@@ -120,5 +120,6 @@ bassPart = \new Staff \with {
   \layout { }
   \midi {
     \tempo 4=100
-  }
+}}
 }
+
